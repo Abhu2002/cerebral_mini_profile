@@ -1,0 +1,31 @@
+[
+  {
+    "name": "John Doe",
+    "age": 20,
+    "bio": "Software Engineer",
+    "image": "https://i.pravatar.cc/150?img=1",
+    "interests": ["Coding", "Gaming", "Music"]
+  },
+  {
+    "name": "Jane Smith",
+    "age": 25,
+    "bio": "Aspiring writer",
+    "description": "Jane is an aspiring writer with a passion for storytelling. She loves exploring new genres and finding inspiration in everyday life.",
+    "image": "https://i.pravatar.cc/150?img=5",
+    "interests": ["Writer", "Traveler", "Music"]
+  },
+  {
+    "name": "Robert Johnson",
+    "age": 47,
+    "bio": "Enjoys photography",
+    "image": "https://i.pravatar.cc/150?img=12",
+    "interests": ["Photography", "Travel", "History"]
+  },
+  {
+    "name": "Emily Wilson",
+    "age": 28,
+    "bio": "Avid Traveler",
+    "image": "https://i.pravatar.cc/150?img=20",
+    "interests": ["Travel", "Reading", "Cooking"]
+  }
+]
