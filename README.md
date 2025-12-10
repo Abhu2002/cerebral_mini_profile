@@ -1,16 +1,44 @@
-# mini_profiles
+# Mini Profiles App – Flutter Assignment
 
-A new Flutter project.
+A Flutter application built for the Cerebral Works take-home assignment.
 
-## Getting Started
+## ✔ Features
+- Load profiles from a local JSON file (assets)
+- Profiles List Screen with image, name, age, short bio
+- Profile Detail Screen with large image, full description, interest tags
+- Clean UI similar to the provided design
+- Error handling + loading indicators
+- Fully modular & null-safe
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 📁 Project Structure
+lib/
+├─ models/
+├─ screens/
+├─ widgets/
+├─ main.dart
+assets/
+└─ profiles.json
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🔧 Setup Instructions
+1. Install Flutter (3.22 recommended)
+2. Run:
+
+
+
+---
+
+## 🏗 Architecture Notes
+- Clean, modular UI
+- Business logic separated from UI
+- JSON parsing handled via models
+- Defensive coding against malformed JSON
+
+---
+
+## 📦 Flutter Version
+Flutter  3.35.6  
+Dart  3.9.2

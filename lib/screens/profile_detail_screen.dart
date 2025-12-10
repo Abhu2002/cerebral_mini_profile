@@ -14,7 +14,6 @@ class ProfileDetailScreen extends StatelessWidget {
         child: SingleChildScrollView(
           padding: const EdgeInsets.symmetric(horizontal: 0, vertical: 10),
           child: Column(
-            crossAxisAlignment: CrossAxisAlignment.center,
             children: [
               // ---------------- BACK BUTTON ----------------
               Container(
@@ -76,6 +75,17 @@ class ProfileDetailScreen extends StatelessWidget {
                     ),
                 
                   ],
+                ),
+              ),
+
+              Padding(
+                padding: const EdgeInsets.only(bottom: 20.0,left: 15,right: 15,top: 15),
+                child: Text(
+                  "${profile.description}",
+                  style: const TextStyle(
+                    fontSize: 18,
+                    color: Colors.black87,
+                  ),
                 ),
               ),
               
